@@ -1,0 +1,24 @@
+# Ignore all compiled executables (in any subdirectory)
+*.exe
+*.o
+*.out
+*.obj
+
+# Ignore debugging files
+*.pdb
+*.idb
+
+# Ignore common build folders
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore temporary or cache files
+*.log
+*.tmp
+*.cache
+
+# System-specific junk
+.DS_Store
+Thumbs.db
